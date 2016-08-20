@@ -1,0 +1,248 @@
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+ 
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+/*===================================================== body*/
+body{
+	height:3000px;
+	width:100%;
+	overflow-x:hidden;
+	background-color:#fafafa;
+	margin:0;
+	padding:0;
+}
+/*=========================================================================header*/
+div.header-wrapper{
+	max-height:20%;
+	height:600px;
+	max-width:100%;
+	margin:auto;
+		background-image:url('../images/cloud.jpg');
+		background-attachment:scroll;
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-color:#d4d4d4;
+		opacity:.5;
+}
+h1.header-text{
+	background:transparent;
+	margin-top:0;
+	padding-top:6em;
+	text-align:center;
+	
+	opacity:1;
+}
+h3.header-text{
+	display:inline;
+	padding-left:3em;
+	text-align:left;
+	font-family:;
+	color:#8DE4F1;
+	opacity:.6;
+	word-spacing:.3em;
+	border-bottom-color:#a4a4a4;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	
+}
+span.header-text{
+	opacity:1;
+	font-family:'Orbitron','serif';
+	font-size:4em;
+	font-size:bold;
+	color:#31D8F0;
+}
+
+/*=====================================================main-nav-con*/
+div.main-nav-con{
+	max-height:25%;
+	max-width:100%;
+	height:150px;
+	width:100%;
+	background-color:black;
+
+		top:2em;
+		
+}
+.main-btn:hover{
+	background:transparent;
+	opacity:.7;
+}
+.main-btn{
+	background-color:inherit;
+	border:none;
+	color:white;
+	height:100%;
+	width:25%;
+	 color: lime; 
+  font-family: "Courier";
+  font-size: 20px;
+
+  white-space: nowrap;
+  overflow: hidden;
+ animation: type 4s steps(60, end); 
+	
+}
+span.main-btn{
+	font-family:
+	font-weight:bold;
+	font-size:2.5em;
+}
+/*==================================================================================RIGHT COLUM FAMILY OFF MAIN-Content-wrapper*/
+div.right-colum-holder{
+	max-height:95%;
+	max-width:25%;
+	height:95%;
+	width:25%;
+	float:right;
+	background-color:#B2BABB;
+	margin-top:1em;
+	margin-right:1em;
+	border-radius:5px;
+	-webkit-box-shadow: 11px 13px 5px -6px rgba(0,0,0,0.4);
+-moz-box-shadow: 11px 13px 5px -6px rgba(0,0,0,0.4);
+box-shadow: 11px 13px 5px -6px rgba(0,0,0,0.4);
+}
+/*============================================================================================== Main Content */
+div.main-content-wrapper{
+	max-height:40%;
+	max-width:100%;
+	height:1200px;
+		background-color:inherit;
+	margin:auto;
+	
+}
+div.main-content{
+	float:left;
+	max-height:95%;
+	height:1100px;
+	max-width:65%;
+	background-color:#fff;
+	border-radius:5px;
+	border: thin solid #a4a4a4;
+	margin-left:3em;
+	
+	margin-top:2em;
+	-webkit-box-shadow: -5px 13px 35px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 13px 35px 0px rgba(0,0,0,0.75);
+box-shadow: -5px 13px 35px 0px rgba(0,0,0,0.75);
+}
+.main-content-headers{
+	margin:0;
+	padding-top:1.5em;
+	text-align:center;
+	font-weight:bold;
+	font-family:'Shrikhand','serif';
+	color:#467386;
+	border-bottom-width:thin;
+	border-bottom-color:inherit;
+	border-bottom-style:solid;
+}
+article{
+	margin-left:6em;
+	margin-right:6em;
+}
+p.main-content-text{
+	line-height:2.25em;
+	word-spacing:.15em;
+	text-align:center;
+	font-size:normal;
+	font-weight:normal;
+	font-family: 'Source Code Pro', monospace;
+	padding-left:4em;
+	padding-right:4em;
+	
+}
+/*==============================================================================================================MORE Content*/
+div.more-content{
+	max-height:30%;
+	max-width:100%;
+	height:900px;
+	background-color:#a4a4a4;
+	background-image:url('../images/hpPride1.jpg');
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+/*===============================================================================================FOOTER */
+div.footer-wrapper{
+	
+	text-align:center;
+	max-height:10%;
+	max-width:100%;
+	
+}
+.footer-text{
+	margin-top:0;
+	padding-top:1.5em;
+	text-align:center;
+	font-size:1.25em;
+	font-weight:bold;
+	font-family: 'Shrikhand', cursive;
+	
+	color:white;
+}
+/*==============================================================================PSUEDO SELECTORS*/
+a:active{
+	text-decoration:underline;
+	color:black;
+}
+a:hover{
+	background-color:inherit;
+	opacity:.8;
+	
+}
+a:link{
+	word-spacing:inherit;
+	color:green;
+	text-decoration:none;
+	font-weight:bold;
+	
+}
+a:visited{
+	color:red;
+	text-decoration:none;
+}
+/*======================================================================================== Test css under!!*/
+span.main-btn{
+  animation: blink 1s ;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+/*======================================================footer animation*/
+div.footer-wrapper {
+    width: 100%;
+    height: 10%;
+    background: red;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
