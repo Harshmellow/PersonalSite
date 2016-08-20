@@ -1,0 +1,262 @@
+/*MAIN DIVS TAGS!*/
+body{
+	height:5000px;
+	width:100%;
+	overflow-x:hidden;
+	margin:0;
+	padding:0;
+
+}
+.ng-page{
+	height:2500px;
+	width:100%;
+	background-color:#a4a4a4;
+	background-image:url('images/cloud.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	display:block;
+	background-attachment:fixed;
+}
+.name-con{
+	height:2.5%;
+	width:100%;
+	background-color:#f23;
+	text-align:center;
+	color:white;
+	font-family: 'Lobster', cursive;
+	background-image:url('images/coolLights.jpg');
+	background-position:center;
+	background-size:cover;
+
+}
+.name{
+	margin:0;
+	font-size:4em;
+	
+	
+}
+.vid-con{
+	display:block;
+	margin:auto;
+	position:relative;
+		top:2em;
+	margin-bottom:4em;
+	
+}
+.header{
+	height:1500px;
+	width:100%;
+	background-color:#fff;
+	background-image:url('images/amazing.jpg');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+.header-text{
+	height:75%;
+	width:75%;
+	margin:auto;
+	text-align:center;
+	color:white;
+}
+h2.header-text-title1{
+	text-transform:uppercase;
+	
+}
+#header-text-title1{
+	margin:0;
+	padding-top:4em;
+	text-align:inherit;
+	background:inherit;
+	color:red;
+	margin-bottom:1.5em;
+	font-family: 'Russo One', sans-serif;
+	
+}
+.image1{
+	background-size:contain;
+	margin-top:1.5em;
+	margin-bottom:1em;
+	border-width:4px;
+	border-style:groove;
+	border-color:inherit;
+	
+	
+}
+.header-text > p {
+	margin:0;
+	background:inherit;
+	font-family: 'Russo One', sans-serif;
+}
+.nav-con{
+	height:12%;
+	width:100%;
+	background-color:black;
+	background-image:url('images/boardBackground.jpg');
+	background-size:cover;
+	background-position:center;
+	
+}
+
+.btn{
+	
+	height:100%;
+	width:25%;
+	border:none;
+	background-color:inherit;
+	
+	
+}
+.btn-text{
+	text-decoration:none;
+	font-size:2em;
+	color:white;
+	border:none;
+}
+.more-images{
+	height:1000px;
+	width:100%;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	background-image:url('images/hpPride1.jpg');
+}
+.more-images-text{
+	padding-top:150px;
+	padding-bottom:150px;
+	height:500px;
+	width:75%;
+	background-color:#FAFAFA;
+	margin:auto;
+	
+}
+.more-images-text-title{
+	color:#15547d;
+	text-align:center;
+	padding-left:2em;
+	background-color:#FAFAFA;
+}
+.more-images-text-p{
+	color:black;
+	font-family:'Lobster','Verdana';
+	text-align:center;
+	width:60%;
+	margin:auto;
+	list-style:none;
+	
+}
+.info-part{
+	height:1000px;
+	width:100%;
+	background-image:url('images/strangeHouse.jpg');
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	opacity:.6;
+	
+}
+.info-titles {
+	margin:0;
+	margin-bottom:25px;
+	color:white;
+	text-align:center;
+	font-family:'sans-serif','times';
+	font-size:3.5em;
+}
+aside{
+	font-family:'times','verdana';
+	color:white;
+	text-align:center;
+	margin-top:1.5em;
+	
+}
+.info-text{
+	text-align:center;
+	font-family:'sans-serif','times';
+	color:white;
+	font-size:1.5em;
+	word-spacing:.15em;
+}
+.test-frame{
+	margin:auto;
+	display:block;
+	
+	
+}
+.footer{
+	height:5%;
+	width:100%;
+	background-color:#d4d4d4;
+	animation: pulse 20s infinite;
+	background:transparent;
+	
+}
+	/* FOOTER ANIMATIONS UNDER HERE!!*/
+@keyframes pulse {
+  0% {
+    background-color: #FE2E2E;
+  }
+  10% {
+    background-color: #FA8258
+  }
+  20% {
+	background-color: #F4FA58;
+  }
+  30%{
+	background-color: #80FF00;
+  }
+  40%{
+	background-color: #81F79F;
+  }
+   50% {
+    background-color: #2EFEF7;
+  }
+  60% {
+    background-color: #2E2EFE;
+  }
+  70% {
+	background-color: #CC2EFA;
+  }
+  80%{
+	background-color: #F2F2F2;
+  }
+  90%{
+	background-color: #848484;
+  }
+  95%{
+	background-color: #000000;
+  }
+  100%{
+	background-color: #FE2E2E;
+  }
+}
+.footer > h1,p{
+	text-align:center;
+	font-size:1em;
+	color:white;
+	font-family:'verdana','sans-serif';
+	margin:0;
+	
+}
+/*END OF FOOTER ANIMATIONS*/
+/*MAIN DIV TAGS END*/
+/*PSUDEO CLASSES*/
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	opacity:.5;
+	color:inherit;
+}
+a:visited{
+	color:red;
+	
+}
+a:active{
+	text-decoration:underline;
+	color:black;
+}

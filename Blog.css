@@ -1,0 +1,219 @@
+/*-------------------------------------------------------------------------------------- BODY CONTENT*/
+body{   /*Body needs to have a light taint of white, and is held with a Height of 2500px!!*/
+	overflow-x:hidden;
+	width:100%;
+	height:3000px;
+	background-color:#f4f4f4;
+	margin:0;
+	padding:0;
+}
+/*---------------------------------------------------------------------------------HEADER CONTENT*/
+.header-wrapper{
+	height:600px;
+	width:100%;
+	background-image:url('../images/cupOcofee.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	opacity:1;
+	background-attachment:scroll;
+	opacity:.65;
+
+}
+h1.header-title{
+	display:block;
+	text-align:center;
+	padding-top:2em;
+	background: transparent;
+	margin:0;
+	text-decoration:none;
+}
+span.header-title{
+	font-family: 'Risque', cursive !important;
+	color:white;
+	font-size:3em;
+	font-weight:bold;
+	opacity:1;
+	
+}
+/*-------------------------------------------------------------------MAIN CONTENT*/
+div.main-content{
+	height:1000px;
+	width:100%;
+	background-color:inherit;
+	
+}
+div.main-text{
+	border-radius:5px;
+	margin-top:2em;
+	height:90%;
+	width:45%;
+	float:left;
+	position:relative;
+	left:300px;
+	top:-90px;
+	right:-100px;
+	background-color:#fff;
+	border: 2px #a4a4a4 solid;
+	-webkit-box-shadow: 6px 13px 20px -2px rgba(179,173,179,0.83);
+	-moz-box-shadow: 6px 13px 20px -2px rgba(179,173,179,0.83);
+	-box-shadow: 6px 13px 20px -2px rgba(179,173,179,0.83);
+}
+h1.main-text-content{
+	margin:0;
+	color:#31DADA;
+	font-family: 'Shrikhand', cursive;
+	font-size:2.25em;
+	text-align:center;
+	padding-top:1.25em;
+	border-bottom-color:gray;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+}
+p.main-text-content,aside{
+	font-family: 'Source Code Pro', monospace;
+	line-height:2em;
+	font-size:normal;
+	text-align:center;
+	color:#80C8DD;
+}
+/================================================================triggered*/
+h3.triggered{
+	font-family:;
+	
+	text-align:center;
+	display:block;
+	margin:auto;
+}
+p.triggered,h3.triggered{
+	font-family: 'Source Code Pro', monospace;
+	background-color:inherit;
+	font-family:;
+	font-size:1em;
+	font-weight:bold;
+	text-align:center;
+	line-height:2em;
+	color:#F77838;
+}
+button.triggered-btn{
+	background-color:inherit;
+	border:none;
+}
+.triggered-btn:hover{
+	opacity:.75;
+	color:inherit;
+}
+div.main-text > article{
+	margin:auto 50px;
+}
+.right-colum-container{
+	height:100%;
+	width:25%;
+	float:right;
+	position:relative;
+	right:100px;
+	top:10px;
+	border:2px #d4d4d4 groove;
+	-webkit-box-shadow: -16px 10px 14px -5px rgba(0,0,0,0.51);
+	-moz-box-shadow: -16px 10px 14px -5px rgba(0,0,0,0.51);
+	-box-shadow: -16px 10px 14px -5px rgba(0,0,0,0.51);
+}
+ul.hobbies-list{
+	font-size:inherit;
+	color:#9DBE88;
+	font-family: 'Lakki Reddy', cursive;
+	line-height:2em;
+	padding-left:10px;
+	text-align:center;
+	padding-top:1em;
+	display:table;
+	margin:auto;
+	list-style:none;
+	
+}
+li.hobbies-list{
+	
+}
+/*======================================================================playlist styling*/
+div.playlist-bg-bck{
+	height:1000px;
+	width:100%;
+	background-color:#d4d4d4;
+	background-image:url('../images/cloud.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	margin-top:3em;
+}
+div.playlist{
+	display:inline-block;
+	height:85%;
+	width:55%;
+	background-color:#fff;
+	background:transparent;
+	padding-top:1em;
+	padding-left:2em;
+	padding-right:2em;
+	padding-bottom:1em;
+	box-sizing:content;
+	margin-left:15%;
+	margin-right:10%;
+	margin-top:3em;
+	border-radius:5px;
+	border-color:#FAFAFA;
+	border-style:inset;
+	border-width:2px;
+}
+div.bck-color{
+	height:750px;
+	width:100%;
+	background-color:#a23;
+}
+/*===================================================================FOOTER STYLING*/
+div.footer-container{
+	height:250px;
+	width:100%;
+	position:relative;
+	
+	font-family: 'Lakki Reddy', cursive;
+	border-color:#a4a4a4;
+	border-style:solid;
+	border-right-width:thick;
+	border-top-width:thin;
+	background-color:#d4d4d4;
+	
+}
+.footer-text{
+	text-align:center;
+	display:block;
+	margin-top:0;
+	margin-bottom:.5em;
+	font-family:inherit;
+	color:black;
+	
+}
+/* =================================================================== PSUEDO SELECTORS*/
+a:link{
+	text-decoration:none;
+	background-color:inherit;
+	font-family:inherit;
+	color:green;
+}
+a:visited{
+	color:red;
+	text-decoration:none;
+	
+}
+a:active{
+	text-decoration:underline;
+	color:black;
+}
+a:hover{
+	opacity:.55;
+	background-color:inherit;
+}
+
+.header-title.animated.hinge {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
